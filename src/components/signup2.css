@@ -1,0 +1,127 @@
+.registerpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.signuppart{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #007f5f;
+  width: auto;
+}
+
+
+.detailspart{                                                            
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left:30px;
+  padding: 20px;
+  background-color: #c7f9cc;
+  height:350px;
+  width:350px;
+  border-radius: 10px;
+  color: #004b23;
+
+}
+
+.buttonpart{
+  margin-top: 30px;
+  width: 100px;
+  background-color: #004b23;
+  color: white;
+  height: 40px;
+  margin-left: 130px;
+  
+}
+
+.buttonpart:hover{
+  margin-top: 30px;
+  width: 100px;
+
+   color: white; 
+  box-shadow: 10px 5px 5px #007f5f ;
+   background-color:#004b23 ;
+  /* background-color: #3c4768; */
+ 
+  height: 40px;
+  /* background: linear-gradient(#e66465, #9198e5); */
+}
+
+#usernamepart{
+  width: 130px;
+  height: 20px;
+  margin-left: 120px;
+}
+#passwordpart{
+  width: 130px;
+  height: 20px;
+  margin-left: 120px;
+}
+#emailpart{
+  width: 130px;
+  height: 20px;
+  margin-left: 120px;
+}
+
+
+
+
+.unpart{
+  /* margin-right: 130px; */
+  margin-left: 150px;
+  font-weight: bold;
+}
+.pdpart{
+  margin-left: 145px;
+  font-weight: bold;
+}
+.mempart{
+  margin-top: 20px;
+  margin-left: 90px;
+  color:#004b23;
+}
+.memopart{
+  margin-top: 50px;
+  margin-left: 30px; 
+  color:#004b23; 
+  font-weight:400; 
+}
+.infopart{
+  font-weight:600;
+  margin-top:20px ;
+  margin-left: 20px;
+  color: white;
+  
+}
+
+
+.newpart{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  color: white;
+  
+}
+.mailpart{
+    margin-left: 160px;
+    font-weight: bold ;
+}
+.createpart{
+  color: #190538;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+

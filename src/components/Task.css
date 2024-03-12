@@ -1,0 +1,299 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007f5f;
+}
+
+.logout{
+    margin-right: 50px;
+    height: 30px;
+    margin-top: 25px;
+    background-color: #004b23;
+    color: white;
+    cursor: pointer;
+}
+.logout:hover{
+    margin-right: 50px;
+    height: 30px;
+    margin-top: 25px;
+    background-color:#c7f9cc; 
+    box-shadow: 10px 5px 5px #004b23;
+    color: black;
+    cursor: pointer;
+}
+
+.homebutton{
+    background-color:#004b23; 
+    color: white;
+    cursor: pointer;
+     margin-left: 1030px;
+    height: 30px;
+    margin-top: 25px;
+}
+.homebutton:hover{
+    background-color:#c7f9cc;
+    color: black;
+    cursor: pointer;
+     margin-left: 1030px;
+    height: 30px;
+    margin-top: 25px;
+    box-shadow: 10px 5px 5px #004b23;
+}
+.homecards{
+    display: flex;
+    justify-content: space-around;
+    align-items:space-around;
+    margin-top: 80px;
+    
+}
+.logo{
+    margin-left: 30px;
+    color: white;
+}
+  .midsec{
+    display: flex;
+
+    
+}  
+.searchbar{
+    height: 25px;
+    margin-top: 40px;
+}
+.search{
+    margin-left: 20px;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.homedetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hello{
+    border: 1px black solid;
+    padding: 8px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    color: #007f5f;
+    background-color: white;
+    
+    
+}
+.hello:hover{
+    border: 1px black solid;
+    padding: 8px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    color: #007f5f;
+    background-color: white;
+    box-shadow: 10px 5px 5px #004b23; 
+    
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color:#007f5f;
+    margin-left: 30px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.card:hover{
+    width: 200px;
+    height: 200px;
+    /* background-color:#4c956c; */
+    background-color:#c7f9cc; 
+    margin-left: 30px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #4FB286; 
+    
+}
+
+ /* .hline{
+    margin-top: 0px;
+    padding-top: 0px;
+}  */
+.left2{ 
+    border-right: 1px black solid;
+    height: 100vh;
+    margin-left:30px ;
+    padding-right:30px ;
+  
+  
+}
+
+ /* .input{
+    
+    margin-left: 550px;
+    margin-top: 20px;
+    height:25px;
+}  */
+
+
+.mytask{
+    margin-top: 20px;
+    width:80px;
+    height:30px;
+    color:white;
+    background-color: #004b23;
+}
+.mytask:hover{
+    margin-top: 20px;
+    width:80px;
+    height:30px;
+    color:black;
+    background-color:#c7f9cc;
+    box-shadow: 10px 5px 5px #004b23;
+}
+.addtask{
+  margin-top: 30px;
+  height:30px;
+  width:80px;
+  color:white;
+  background-color: #004b23;
+}
+.addtask:hover{
+    margin-top: 30px;
+    height:30px;
+    width:80px;
+    color:black;
+    background-color:#c7f9cc; 
+    box-shadow: 10px 5px 5px #004b23;
+      
+  }
+.adtask{
+    margin-top: 10px;
+}
+ .right{
+    width:1600px;
+}  
+.hr1{
+    margin-top: 40px;
+}
+.middlepart{
+    display: flex;
+    justify-content: space-evenly;
+ }
+.middlepart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p1{
+    margin-left: 60px;
+}
+.c1{
+    margin-left: 60px;
+}
+.d1{
+    margin-left: 60px;
+}
+
+.taskno{
+    height:20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.taskname{
+    /* margin-top: 50px; */
+    margin-left: 70px;
+}
+.duedate{
+    margin-left: 180px;
+}
+.dots{
+    margin-left: 160px;
+}
+.search{
+    margin-left: 10px;
+    margin-top: 40px;
+    background-color:#004b23;
+    color: white;
+    height:30px;
+}
+.search:hover{
+    margin-left: 10px;
+    margin-top: 40px;
+    box-shadow: 10px 5px 5px #004b23;
+    background-color: #c7f9cc; 
+    color: black;
+    height:30px;
+}
+#taskname{
+    margin-left: 60px;
+}
+#taskdesc{
+    margin-left: 20px;
+    
+}
+#taskassign{
+    margin-left: 37px;
+}
+.taskdescription{
+    margin-top: 20px;
+}
+.taskassigned{
+    margin-top: 20px;
+}
+.addingtasks{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    background-color:#c7f9cc;
+
+   
+}
+.detail{
+    margin-top: 20px;
+    height: 200px;
+}
+
+/* //taskcards */
+
+/* .tcards{
+    display: flex;
+    justify-content: space-around;
+    
+} 
+.data{
+    display: flex;
+    justify-content: space-around;
+}
+.tname{
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* table */
+/* table,th, td {
+    
+    border:1px solid black;
+   
+        
+      } 
+      td,th{
+        padding: 15px;
+      }
+      .head{
+        margin-top: 10px;
+        margin-right: 30px;
+    
+      } */ 
+     

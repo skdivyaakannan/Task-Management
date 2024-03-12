@@ -1,0 +1,382 @@
+.headerpart{
+    display: flex;
+    justify-content: space-between;
+    width:auto
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.hamlogo{
+    margin-top: 24px;
+}
+.logoutpart{
+
+    height: 30px;
+    margin-top: 25px;
+    background-color: #004b23;
+     color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.logoutpart:hover{
+
+    height: 30px;
+    margin-top: 25px;
+background-color:#c7f9cc; 
+    box-shadow: 10px 5px 5px #004b23;
+    color: black;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.homebuttonpart{
+    background-color: rgb(90, 19, 156); 
+    color: white;
+    cursor: pointer;
+     margin-left: 1030px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+
+.logopart{
+    margin-left: 50px;
+}
+  .midsecpart{
+    display: flex;
+
+    
+}  
+.searchbarpart{
+    height: 25px;
+    margin-left: 20px; 
+    width: 150px;
+}
+.searchpart{
+    margin-right: 290px; 
+    
+}
+.mainpart{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.homedetailpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hellopart{
+    border: 1px black solid;
+    padding: 8px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    color: #007f5f;
+    background-color: white;
+}
+.hellopart:hover{
+    border: 1px black solid;
+    padding: 8px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    color: #007f5f;
+    box-shadow: 10px 5px 5px #004b23; 
+    background-color: white;
+}
+.cardpart{
+    
+    width: 200px;
+    height: 200px;
+    background-color:#007f5f;
+    margin-left: 30px;
+    color: white;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.cardpart:hover{
+    width: 200px;
+    height: 200px;
+    background-color:#c7f9cc;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: black;
+    box-shadow: 10px 5px 5px #4FB286; 
+    
+}
+
+ .hlinepart{
+    margin-top: 0px;
+    padding-top: 0px;
+    width:100%;
+} 
+.logotitle{
+    margin-left: 20px;
+    color:white;
+}
+.leftpart{ 
+    border-right: 1px black solid;
+    height: 250vh;
+    margin-left:20px;
+    padding-right:30px;
+  
+  
+}
+ 
+
+.mytaskpart{
+    margin-top: 20px;
+    width:80px;
+    height:30px;
+    color:white;
+    background-color: #004b23;
+}
+.mytaskpart:hover{
+    margin-top: 20px;
+    width:80px;
+    height:30px;
+    color:black;
+    background-color:#c7f9cc;
+    box-shadow: 10px 5px 5px #004b23;
+}
+
+.addtaskpart{
+  margin-top: 30px;
+  height:30px;
+  width:80px;
+  color:white;
+  background-color: #004b23;
+}
+.addtaskpart:hover{
+    margin-top: 30px;
+    height:30px;
+    width:80px;
+    background-color:#c7f9cc; 
+    box-shadow: 10px 5px 5px #004b23;
+    color: black;
+   
+  }
+.adtaskpart{
+    margin-top: 10px;
+}
+ .rightpart{
+    width:1600px;
+}  
+.hr1part{
+    margin-top: 40px;
+}
+.middlepart{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.p1part{
+    margin-left: 60px;
+}
+.c1part{
+    margin-left: 60px;
+}
+.d1part{
+    margin-left: 60px;
+}
+
+.tasknopart{
+    height:20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tasknamepart{
+    /* margin-top: 50px; */
+    margin-left: 70px;
+}
+.duedatepart{
+    margin-left: 180px;
+}
+.dotspart{
+    margin-left: 160px;
+}
+.searchpart{
+    margin-left: 10px;
+    background-color:#004b23;
+    color: white;
+    height:30px;
+}
+.searchpart:hover{
+    margin-left: 10px;
+    box-shadow: 10px 5px 5px #004b23;
+    background-color: #c7f9cc; 
+    color: black;
+    height:30px;
+}
+#tasknamepart{
+    margin-left: 50px;
+}
+#taskdescpart{
+    margin-left: 10px;
+    
+}
+#taskassignpart{
+    margin-left: 25px;
+}
+.taskdescriptionpart{
+    margin-top: 20px;
+}
+.taskassignedpart{
+    margin-top: 20px;
+}
+.addingtaskspart{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    background-color:#c7f9cc;
+   
+}
+.detailpart{
+    margin-top: 15px;
+    height: 200px;
+   
+   
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+   
+}
+.homebutton{
+    cursor: pointer;
+}
+
+
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00BAF0;
+    background: linear-gradient(to left, #000000, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFF;
+    height: 22px;
+    width:22px;
+    margin-top: 6px;
+    padding: 1em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 700px) {
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ .menu li {
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: white;
+      background-color: #222;
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid #444;
+    }
+  }
+
+
+

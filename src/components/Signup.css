@@ -1,0 +1,96 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.signup{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #007f5f;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    color: #004b23;
+    margin-left: 500px;
+    padding: 20px;
+    background-color:#c7f9cc;   
+    height:max-content;
+    width:max-content;
+    border-radius: 10px;
+    
+}
+.button{
+    margin-top: 40px;
+    width: 500px;
+
+     color: white; 
+    
+     background-color:#004b23 ;
+    /* background-color: #3c4768; */
+   
+    height: 40px;
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+.button:hover{
+    margin-top: 40px;
+    width: 500px;
+
+     color: white; 
+    box-shadow: 10px 5px 5px #007f5f ;
+     background-color:#004b23 ;
+    /* background-color: #3c4768; */
+   
+    height: 40px;
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+#username{
+    width: 500px;
+    height: 30px;
+}
+#password{
+    width: 500px;
+    height: 30px;
+}
+#email{
+    width: 500px;
+    height: 30px;
+}
+.un{
+    margin-right: 430px;
+}
+.pd{
+    margin-right: 430px;
+}
+.mem{
+    margin-top: 50px;
+    margin-left: 155px;
+    color:#004b23;
+}
+.memo{
+    margin-top: 50px;
+    margin-left: 100px;   
+    color:#004b23;
+    font-weight:400;
+}
+.create{
+    color: #190538;
+    font-weight: 600;
+}
+.info{
+    font-weight:600;
+    margin-top:20px ;
+    color: white;
+    
+}
+.new{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: white;
+    
+}
