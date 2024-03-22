@@ -22,7 +22,8 @@ const register = async()=>{
 
   }
   console.log(userdata);
-  const result = await axios.post("http://localhost:8080/api/user/register",userdata)
+  // const result = await axios.post("http://localhost:8080/api/user/register",userdata)
+  const result = await axios.post("https://backend-code-tm.onrender.com/api/user/register",userdata)
   console.log(result)
   
   if(result)

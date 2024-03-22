@@ -28,7 +28,7 @@ const isTabletOrMobileDevice = useMediaQuery({maxWidth: 600});
      
 
         }
-        {/* <Route path="/" element={<Login />}></Route> */}
+        
         
   
        

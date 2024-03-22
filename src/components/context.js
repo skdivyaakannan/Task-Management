@@ -8,7 +8,8 @@ export const AuthProvider = ({ children }) => {   //setting up a provider and ha
   // code for global context fucntions
   const Login = async(data)=>{
   console.log(data)
-    axios.post("http://localhost:8080/api/auth/login",data)
+    // axios.post("http://localhost:8080/api/auth/login",data)
+    axios.post("https://backend-code-tm.onrender.com/api/auth/login",data)
    .then(()=>{
     setUser(data.email)
     console.log(data.email)

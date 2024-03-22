@@ -27,7 +27,7 @@ const Taskcards = (props) => {
     }
     console.log(update,"22222")
    
-   const statusupdate =   await axios.post(`http://localhost:8080/api/task/statusUpdate`,update);
+   const statusupdate =   await axios.post(`https://backend-code-tm.onrender.com/api/task/statusUpdate`,update);
   console.log(statusupdate,"11111");
   props.mytask();
 
@@ -45,7 +45,7 @@ const Taskcards = (props) => {
  console.log(task_uuid)
  
 
-const deletedata = await axios.delete(`http://localhost:8080/api/task/taskdelete/${task_uuid}`);
+const deletedata = await axios.delete(`https://backend-code-tm.onrender.com/api/task/taskdelete/${task_uuid}`);
   console.log(deletedata);
   props.mytask();
  }

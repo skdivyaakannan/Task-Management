@@ -1,0 +1,15 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 229, 229);
+    margin-top: 30px;
+    height:65px;
+    color:black;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+.delicon{
+    margin-top: 25px;
+}
+

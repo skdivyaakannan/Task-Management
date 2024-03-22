@@ -36,7 +36,7 @@ const Task = () => {
     setToggle(true);
     setCond(true)
 
-    const result = await axios.get(`http://localhost:8080/api/task/searchbar?taskname=${tname}`);
+    const result = await axios.get(`https://backend-code-tm.onrender.com/api/task/searchbar?taskname=${tname}`);
     console.log(result.data,"1111")
     setTaskdetails(result.data);
     console.log(val,"det")
@@ -57,7 +57,8 @@ const addtasks = async()=>{
     }
     
 
-const data = await axios.post(`http://localhost:8080/api/task/taskdata`,details);
+// const data = await axios.post(`http://localhost:8080/api/task/taskdata`,details);
+const data = await axios.post(`https://backend-code-tm.onrender.com/api/task/taskdata`,details);
 console.log(data,"data")
 
 setTaskName('');
@@ -72,7 +73,7 @@ setPopup(false);
 }
 useEffect(()=>{
   const countHandler =async()=>{
-    const res = await axios.get(`http://localhost:8080/api/task/getstatuscount`);
+    const res = await axios.get(`https://backend-code-tm.onrender.com/api/task/getstatuscount`);
     console.log(res.data,"111");
     setCount(res.data)
   }
@@ -99,7 +100,7 @@ const closebutton=()=>{
   setToggle(true);
   setCond(true);
       
-            const res = await axios.get(`http://localhost:8080/api/task/mytasks/?assigned=${user}`);
+            const res = await axios.get(`https://backend-code-tm.onrender.com/api/task/mytasks/?assigned=${user}`);
             
             
             setTaskdetails(res.data)
